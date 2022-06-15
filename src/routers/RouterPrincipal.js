@@ -4,7 +4,6 @@ import {
     Routes,
     Route,
     NavLink,
-    Link,
   } from "react-router-dom";
 import { Articulos } from '../components/Articulos';
 import { Contacto } from '../components/Contacto';
