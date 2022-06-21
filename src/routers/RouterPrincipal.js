@@ -52,6 +52,7 @@ export const RouterPrincipal = () => {
                 <Route path='/redirigir' element={<Navigate to="/persona/victor/robles"/>} />
 
                 <Route path='/panel/*' element={<PanelControl />}> 
+                  <Route index element={< InicioPanel />}/>
                   <Route path='inicio' element={< InicioPanel />}/>
                   <Route path='crear-articulo' element={<Crear/>}/>
                   <Route path='gestion-usuario' element={< Gestion />}/>
